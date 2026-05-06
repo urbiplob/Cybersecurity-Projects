@@ -1,0 +1,21 @@
+Security Event Profiling
+source="WinEventLog:Security"
+| stats count by EventCode
+Successful Logon Analysis
+source="WinEventLog:Security" EventCode=4624
+| stats count by Account_Name
+Failed Logon Investigation
+source="WinEventLog:Security" EventCode=4625
+| stats count by Account_Name
+Privileged Logon Monitoring
+source="WinEventLog:Security" EventCode=4672
+| stats count by Account_Name
+Event Correlation
+source="WinEventLog:Security" (EventCode=4624 OR EventCode=4672)
+| table _time EventCode Account_Name Logon_Type host
+Authentication Timeline Visualization
+source="WinEventLog:Security" (EventCode=4624 OR EventCode=4625)
+| timechart count by EventCode
+Logon Type Analysis
+source="WinEventLog:Security" EventCode=4624
+| stats count by Logon_Type
