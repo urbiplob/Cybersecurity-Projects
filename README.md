@@ -1,4 +1,4 @@
-# 🛡️ Cybersecurity Projects Portfolio
+#  Cybersecurity Projects Portfolio
 
 Welcome to my cybersecurity project portfolio.
 
@@ -8,9 +8,9 @@ The projects demonstrate practical experience in analyzing security events, deve
 
 ---
 
-# 🚀 Featured Projects
+# Featured Projects
 
-## 🛡️ Mini Automated Cyber Security Operations Center (CSOC)
+##  Mini Automated Cyber Security Operations Center (CSOC)
 
 A practical automated Security Operations Center lab built using **Wazuh SIEM, Ubuntu Server, Windows, Kali Linux, n8n, and Telegram**.
 
@@ -38,11 +38,11 @@ The project demonstrates centralized security monitoring, custom threat detectio
 
 `Wazuh` `Ubuntu Server` `Windows` `Kali Linux` `n8n` `Telegram` `VirtualBox` `PowerShell`
 
-📁 **Project:** [Mini Automated CSOC](./Mini-Automated-CSOC/)
+ **Project:** [Mini Automated CSOC](./Mini-Automated-CSOC/)
 
 ---
 
-## 📊 SOC Workflow Simulation Using Splunk SIEM
+## SOC Workflow Simulation Using Splunk SIEM
 
 Security Operations Center workflow simulation using **Splunk SIEM** for monitoring and investigating Windows Security Events.
 
@@ -61,11 +61,11 @@ The project includes:
 
 `Splunk Enterprise` `Windows Event Logs` `PowerShell` `SIEM`
 
-📁 **Project:** [SOC Workflow Simulation](./SOC/)
+ **Project:** [SOC Workflow Simulation](./SOC/)
 
 ---
 
-## 📄 Document Forensics
+##  Document Forensics
 
 Digital forensic investigation focused on analyzing suspicious PDF documents and identifying possible manipulation or hidden information.
 
@@ -82,11 +82,11 @@ The investigation includes:
 
 `ExifTool` `PDF Forensics Tools` `CyberChef` `Digital Forensics`
 
-📁 **Project:** [Document Forensics](./Document-Forensics/)
+ **Project:** [Document Forensics](./Document-Forensics/)
 
 ---
 
-## 📧 Email Forensics
+##  Email Forensics
 
 Investigation of suspicious emails using email-header analysis, authentication validation, IOC extraction, and threat intelligence.
 
@@ -106,11 +106,11 @@ The investigation includes:
 
 `VirusTotal` `MXToolbox` `CyberChef` `Threat Intelligence`
 
-📁 **Project:** [Email Forensics](./Email-Forensics/)
+ **Project:** [Email Forensics](./Email-Forensics/)
 
 ---
 
-# 🔐 Skills Demonstrated
+#  Skills Demonstrated
 
 ### SOC & SIEM
 - Wazuh SIEM
@@ -169,7 +169,7 @@ The investigation includes:
 
 ---
 
-# 🎯 Areas of Interest
+#  Areas of Interest
 
 - Security Operations Center (SOC)
 - Blue Team Operations
@@ -183,7 +183,7 @@ The investigation includes:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 ## M. Usamanur Rahman Biplob
 
@@ -193,4 +193,4 @@ Focused on developing practical skills in **SOC operations, SIEM, threat detecti
 
 ---
 
-⭐ This repository is continuously updated with cybersecurity labs, investigations, detection engineering projects, and SOC-related practical work.
+ This repository is continuously updated with cybersecurity labs, investigations, detection engineering projects, and SOC-related practical work.
