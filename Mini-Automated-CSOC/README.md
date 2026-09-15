@@ -3,13 +3,13 @@
 A laboratory-based automated Cyber Security Operations Center built using
 Wazuh, Windows, Ubuntu Server, Kali Linux, n8n, and Telegram.
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates a small-scale CSOC capable of security monitoring,
 threat detection, automated incident response, alert notification, and
 security visualization.
 
-## 🏗️ Architecture
+##  Architecture
 
 Kali Linux
      │
@@ -32,7 +32,7 @@ Windows Host
           ▼
      Wazuh Manager
 
-## 🔍 Detection Modules
+## Detection Modules
 
 - SSH Authentication Failure Detection
 - Ubuntu SSH Brute-Force Detection
@@ -41,7 +41,7 @@ Windows Host
 - Suspicious PowerShell Base64 Detection
 - File Integrity Monitoring (FIM)
 
-## 🛡️ Automated Incident Response
+##  Automated Incident Response
 
 Ubuntu SSH brute-force attacks trigger Wazuh Active Response.
 
@@ -61,7 +61,7 @@ Block IP for 120 seconds
         ↓
 Automatic Unblock
 
-## 🤖 Automation
+##  Automation
 
 Wazuh alerts are integrated with n8n.
 
@@ -77,7 +77,7 @@ Telegram
 
 High-severity alerts are automatically sent to Telegram.
 
-## 📊 Dashboards
+##  Dashboards
 
 Two Wazuh dashboards were created:
 
@@ -94,7 +94,7 @@ The dashboards provide visibility into:
 - Active Response events
 - Detection rules
 
-## 🧰 Technologies
+##  Technologies
 
 - Wazuh
 - Splunk
@@ -108,16 +108,16 @@ The dashboards provide visibility into:
 - Wireshark
 - MITRE ATT&CK
 
-## 🎯 Key Outcome
+##  Key Outcome
 
 The project successfully demonstrated an end-to-end security workflow:
 
 Detection → Analysis → Response → Notification → Visualization
 
-## 📷 Project Screenshots
+##  Project Screenshots
 
 See the `Screenshots/`, `Dashboards/`, and `Architecture/` directories.
 
-## 📄 Documentation
+##  Documentation
 
-The complete project report is available in the `Documentation/` directory.
+The complete project report is available in the `[Documentation/]([url](https://github.com/urbiplob/Cybersecurity-Projects/blob/main/Mini-Automated-CSOC/Documentation/Mini-Automated-CSOC-Report.pdf))` directory.
