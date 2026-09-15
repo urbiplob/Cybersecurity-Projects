@@ -1,0 +1,44 @@
+<!--
+  Mini Automated CSOC
+  Wazuh Active Response Configuration
+
+  Automatic response is enabled only for Ubuntu SSH
+  brute-force detection (Rule 100101).
+
+  Windows brute-force, Windows Firewall, and PowerShell
+  detections remain detection-only.
+-->
+
+<active-response>
+  <disabled>no</disabled>
+  <command>firewall-drop</command>
+  <location>local</location>
+  <rules_id>100101</rules_id>
+  <timeout>120</timeout>
+</active-response>
+
+
+<!-- Reports that the attacker IP was blocked -->
+<group name="local,csoc,active_response,ossec,">
+
+  <rule id="100600" level="10" overwrite="yes">
+    <if_sid>651</if_sid>
+    <description>
+      CSOC ALERT: Attacker IP has been BLOCKED by firewall-drop for 120 seconds
+    </description>
+    <mitre>
+      <id>T1562.004</id>
+    </mitre>
+    <group>active_response,firewall_drop,csoc,ossec,</group>
+  </rule>
+
+  <!-- Reports automatic IP unblocking -->
+  <rule id="100601" level="10" overwrite="yes">
+    <if_sid>652</if_sid>
+    <description>
+      CSOC ALERT: Attacker IP has been UNBLOCKED by firewall-drop Active Response
+    </description>
+    <group>active_response,firewall_drop,csoc,ossec,</group>
+  </rule>
+
+</group>
