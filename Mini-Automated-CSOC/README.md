@@ -120,4 +120,4 @@ See the `Screenshots/`, `Dashboards/`, and `Architecture/` directories.
 
 ##  Documentation
 
-[ View PDF Report]([url](https://github.com/urbiplob/Cybersecurity-Projects/blob/main/Mini-Automated-CSOC/Documentation/Mini-Automated-CSOC-Report.pdf))
+[ View PDF Report](https://github.com/urbiplob/Cybersecurity-Projects/blob/main/Mini-Automated-CSOC/Documentation/Mini-Automated-CSOC-Report.pdf)
